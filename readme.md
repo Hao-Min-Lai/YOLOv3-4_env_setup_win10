@@ -5,4 +5,4 @@
 <h2>第一步：安裝cuda與cudnn</h2>
 <p>
 <p>到<a href="https://developer.nvidia.com/cuda-toolkit-archive">CUDA官網</a>安裝自己需要的版本，個人目前使用10.1版</p>
-![image](https://github.com/lhmjimmy/Yolov3-/blob/master/cuda版本.PNG)
+![image](https://github.com/lhmjimmy/Yolov3-/blob/master/cuda_v.PNG)
