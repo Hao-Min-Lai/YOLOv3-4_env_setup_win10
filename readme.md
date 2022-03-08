@@ -1,8 +1,9 @@
 <h1>yolov3環境架設筆記</h1>
 <p>
-<p>有鑑於每次重新架設yolo環境都要重新找之前看的網站或是書籍，而網路上的資料零零散散，常常需要翻很多個網站看有無漏掉的細節，因此決定自己寫一個環境架設的筆記來記錄架環境的過程，如有寫錯的地方歡迎不吝賜教。
+<p>&emsp;&emsp;大家好~我是吉米，環境架設對於大部分新手工程師們常常是一場惡夢(有時候老手也是XD)，在網路上爬文半天結果忽略某個細節導致後面又要回頭除錯，一天就這樣過去了ಥ_ಥ，在這邊給剛接觸yolo需要架環境的工程師們參考，省時間並少走一些彎路~</p>
+<p>&emsp;&emsp;有鑑於每次重新架設yolo環境都要重新找之前看的網站或是書籍，而網路上的資料零零散散，常常需要翻很多個網站看有無漏掉的細節，因此決定自己寫一個環境架設的筆記來記錄架環境的過程，如有寫錯的地方歡迎不吝賜教。
 <p>
-<h2>第一步：安裝cuda與cudnn</h2>
+<h2>第一步：安裝cuda與cudnn並配置環境</h2>
 <p>
 <p><h3>1.安裝CUDA</h3></p>
 <p>第一步：到<a href="https://developer.nvidia.com/cuda-toolkit-archive">CUDA官網</a>點選自己需要的CUDA版本，個人目前使用10.1版</p>
@@ -12,11 +13,8 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cuda_install.PNG"></p>
 <p>第三步：安裝好之後叫出你的cmd並輸入nvcc --version確認，如果有顯示如下圖(最後一行會顯示你系統目前使用的Cuda版本)，代表安裝成功了~恭喜你~!</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cuda_checkv.PNG"></p>
-
-
-
-
-
+<p>或是查看環境變數中的系統變數是否有這兩行。V幾會根據你下載的版本而定，不要看到數字不一樣就覺得我是不是裝錯了，請放心~</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cuda_env.PNG"></p>
 
 
 <p><h3>2.安裝cudnn</h3></p>
@@ -25,6 +23,7 @@
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/Download%20cuDNN.PNG">
 <p>第二步：勾選 I Agree To the Terms of the cuDNN Software License Agreement，勾選後點擊下方的Archived cuDNN Releases進到選擇版本頁面</p>
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_releases.PNG">
-<p>第三部：點選自己需要的cudnn版本，個人目前使用7.6.2版，並根據自己的系統去選擇要下載的檔案點擊下載。</p>
+<p>第三步：點選自己需要的cudnn版本，個人目前使用7.6.2版，並根據自己的系統去選擇要下載的檔案點擊下載。</p>
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_version.PNG">
-
+<p>第四步：下載完後解壓縮到自己要的地方，我自己是解壓縮在C槽根目錄下，解壓縮後會得到一個資料夾</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_unzip.PNG"></p>
