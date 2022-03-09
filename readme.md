@@ -45,4 +45,6 @@
 <p>1.到<a href="https://opencv.org/releases/">OpenCV官網下載要的OpenCV版本</a>，個人目前使用3.4.16</p>
 <p>2.下載好後解壓縮到自己要的地方，我是解壓縮在C槽根目錄C:\opencv-3.4.16-vc14_vc15(解壓縮的位置要記得，後面會使用到)</p>
 <h2>第四步：下載darknet並解壓縮</h2>
-<p>1.到<a href="https://github.com/AlexeyAB/darknet">github下載darknet</a></p>
+<p>1.到github<a href="https://github.com/AlexeyAB/darknet">下載darknet</a></p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_download.PNG"></p>
+<p>2.下載好之後解壓縮到自己要的位置，我是解壓縮在我的G槽G:\darknet-master</p>
