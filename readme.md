@@ -48,3 +48,5 @@
 <p>1.到github<a href="https://github.com/AlexeyAB/darknet">下載darknet</a></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_download.PNG"></p>
 <p>2.下載好之後解壓縮到自己要的位置，我是解壓縮在我的G槽G:\darknet-master</p>
+<p>3.打開在darknet-master資料夾中的build資料夾，再打開build資料夾中的darknet資料夾，應該會看到如下畫面</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_cudav.PNG"></p>
