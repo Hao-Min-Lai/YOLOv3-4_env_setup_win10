@@ -54,3 +54,7 @@
 <p>註：因為版本的更動行數也許不一定跟我一樣，如果按照圖片上的行數找不到請善用ctrl+F</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_version1.PNG"></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_version2.PNG"></p>
+<p>5.到C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations確認是否有以下檔案，如果有代表成功了</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_filecheck.PNG"></p>
+如果沒有這些檔案請到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions中把裡面的4個檔案copy到C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations中。(路徑通常不會有差異，路徑中通常只會有版本號跟我不一樣v10.1)
+<p>6.到3.提到的build資料夾下的darknet資料夾，並用vs2022將darknet.sln</p>
