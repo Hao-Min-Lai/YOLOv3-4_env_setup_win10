@@ -34,3 +34,4 @@
 <p><h4>3.把 C:\cudnn-10.2-windows10-x64-v7.6.5.32\cuda\lib\x64\cudnn.lib 複製到 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64中</h4></p>
 <p>
 <p><h3>恭喜你~以上步驟都順利完成的話~你的cuda 與cudnn配置就完成囉~</h3></p>
+<h2>第二步：安裝Visual Studio</h2>
