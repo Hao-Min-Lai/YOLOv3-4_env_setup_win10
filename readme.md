@@ -36,8 +36,13 @@
 <p><h3>恭喜你~以上步驟都順利完成的話~你的cuda 與cudnn配置就完成囉~</h3></p>
 <h2>第二步：安裝Visual Studio</h2>
 <p>&emsp;&emsp;個人是裝2022版，之前看到爬文有人推2015跟2017比較不會出錯，不過我用2022除錯了一下也順利的架設好了，所以這邊分享一下Visual Studio2022的安裝方法，如果有大大有更方便的安裝方法歡迎跟我分想一下，之前為了這Visual Studio的部分卡了兩天差點放棄ಥ_ಥ</p>
-<p>第一步：到<a href="https://visualstudio.microsoft.com/zh-hant/downloads/">Visual Studio官網</a>點選社群下方的免費下載按鈕，個人目前使用2022版，下載完後直接點擊安裝</p>
+<p>1.：到<a href="https://visualstudio.microsoft.com/zh-hant/downloads/">Visual Studio官網</a>點選社群下方的免費下載按鈕，個人目前使用2022版，下載完後直接點擊安裝</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_download.PNG"></p>
-<p>第二步：安裝時基本上只要一直下一步就好，直到下方圖片的畫面。勾選1跟2之後，點擊3進行安裝</p>
+<p>2.：安裝時基本上只要一直下一步就好，直到下方圖片的畫面。勾選1跟2之後，點擊3進行安裝</p>
 <p>註：這邊是選擇要安裝的套件，可以根據自己開發需求選擇要安裝的套件，若不知道安裝什麼就先照著下方圖片勾選，其他套件有需後續都可以繼續安裝</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_check.PNG"></p>
+<h2>第三步：安裝OpenCV</h2>
+<p>1.到<a href="https://opencv.org/releases/">OpenCV官網下載要的OpenCV版本</a>，個人目前使用3.4.16</p>
+<p>2.下載好後解壓縮到自己要的地方，我是解壓縮在C槽根目錄C:\opencv-3.4.16-vc14_vc15(解壓縮的位置要記得，後面會使用到)</p>
+<h2>第四步：下載darknet並解壓縮</h2>
+<p>1.到<a href="https://github.com/AlexeyAB/darknet">github下載darknet</a></p>
