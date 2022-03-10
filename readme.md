@@ -77,3 +77,9 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_projectresetwindowset.jpg"></p>
 <p>點擊完確定後，把VisualStudio關掉後，重新使用VisualStudio開啟darknet.sln，開啟後這時版本問題應該就會不見了，但是會有另一個報錯如下圖</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_designtimeerro.jpg"></p>
+<p>11.這時開啟VisualStudio的cmd(圖中紅框處)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_cmd.png"></p>
+<p>開啟後輸入以下兩個指令如下圖</p>
+<p>set TraceDesignTime=true(此指令是對VisualStudio進行設置，執行後不會顯示任何東西)</p>
+<p>devenv(此指令執行結束後會重啟VisualStudio)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_cmdrestart.jpg"></p>
