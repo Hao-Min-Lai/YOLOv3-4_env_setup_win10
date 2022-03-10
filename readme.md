@@ -98,3 +98,4 @@
 <p>到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions路徑中，將路徑中四個檔案都複製到C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\路徑中即可如下圖</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root_filecopy.png"></p>
 <p>這時關掉VisualStudio後再用VisualStudio開啟darknet.sln應該就不會報錯嚕~</p>
+<p>13.接下來就是將opencv加入VisualStudio中~首先與7.一樣對darknet點擊右鍵按屬性並進行以下操作，由於前面有提過了這邊就不截圖了，可以拉回前面看</p>
