@@ -83,3 +83,17 @@
 <p>set TraceDesignTime=true(此指令是對VisualStudio進行設置，執行後不會顯示任何東西)</p>
 <p>devenv(此指令執行結束後會重啟VisualStudio)</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_cmdrestart.jpg"></p>
+<p>12.VisualStudio重啟後一樣用VisualStudio開啟darknet.sln，這時應該會看到如下報錯</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_temperror.jpg"></p>
+<p>打開自己的cmd並輸入%temp%，輸入完之後會看到下面第二章，報錯中的%temp%代表的路徑就是紅圈框起來的路徑(每個人的會根據user名稱而有差異，跟我不一樣是正常的)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cmd.png"></p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cmd_temp.jpg"></p>
+<p>將上圖紅框中的路徑複製下來，貼到資料夾的路徑中進入報錯中提示的地方，然後按enter，如下圖</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root.jpg"></p>
+<p>接著搜尋designtime，然後按enter，如下圖，這時我們會看到一堆xxxxxxxxxxxxxxxx.designtime.log的檔案</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root_designtime.jpg"></p>
+<p>用記事本隨便開起一個xxxxxxxxxxxxxxxx.designtime.log的檔案，並拉至最下方看看報錯，報錯如下圖紅框，這個報錯簡單的來說就是C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\路徑中沒有CUDA 10.1.props這個檔案。</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root_designtimeerror.jpg"></p>
+<p>這時我們只要將檔案複製到該路徑就好了，方法如下</p>
+<p>到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions路徑中，將路徑中四個檔案都複製到C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\路徑中即可如下圖</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root_filecopy.png"></p>
