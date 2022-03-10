@@ -53,7 +53,7 @@
 <p>2.下載好之後解壓縮到自己要的位置，我是解壓縮在我的G槽G:\darknet-master</p>
 <p>3.打開在darknet-master資料夾中的build資料夾，再打開build資料夾中的darknet資料夾，應該會看到如下畫面</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_cudav.PNG"></p>
-<p>4.將畫面中圈起來的檔案拖入你要的編輯器中，我是使用vscode，並修改下列兩處，將CUDA改成自己的版本，例如我的是10.1就改成10.1</p>
+<p>4.將上圖中圈起來的檔案拖入你要的編輯器中，我是使用vscode，並修改下列兩處，將CUDA改成自己的版本，例如我的是10.1就改成10.1</p>
 <p>註：因為版本的更動行數也許不一定跟我一樣，如果按照圖片上的行數找不到請善用ctrl+F</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_version1.PNG"></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_version2.PNG"></p>
@@ -61,4 +61,4 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_filecheck.PNG"></p>
 如果沒有這些檔案請到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions中把裡面的4個檔案copy到C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations中。(路徑通常不會有差異，路徑中通常只會有版本號跟我不一樣v10.1)
 <p></p>
-<p>6.到3.提到的build資料夾下的darknet資料夾，並用vs2022將darknet.sln</p>
+<p>6.到3.提到的build資料夾下的darknet資料夾，並用vs2019將darknet.sln開啟</p>
