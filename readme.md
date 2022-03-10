@@ -39,12 +39,14 @@
 <p>os:不要去用2022，可能後續會有更新讓2022版能用，但是我在用的時候用了半天跟我報錯說此功能只在2019以下版本適用我吐了我(／‵Д′)／~ ╧╧</p>
 <p>1.：到<a href="https://docs.microsoft.com/zh-tw/visualstudio/releases/2019/release-notes">Visual Studio官網</a>點選Download Community 2019按鈕，個人目前使用2019版，下載完後直接點擊安裝</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_2019.PNG"></p>
-<p>2.：安裝時基本上只要一直下一步就好，直到下方圖片的畫面。勾選1跟2之後，點擊3進行安裝</p>
+<p>2.：安裝時基本上只要一直下一步就好，直到下方圖片的畫面。勾選1跟2之後，點擊3進行安裝(下方圖是我抓2022的時候截的，不過2019也是同樣的設定，不影響)</p>
 <p>註：這邊是選擇要安裝的套件，可以根據自己開發需求選擇要安裝的套件，若不知道安裝什麼就先照著下方圖片勾選，其他套件有需後續都可以繼續安裝</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_check.PNG"></p>
 <h2>第三步：安裝OpenCV</h2>
 <p>1.到<a href="https://opencv.org/releases/">OpenCV官網下載要的OpenCV版本</a>，個人目前使用3.4.16</p>
 <p>2.下載好後解壓縮到自己要的地方，我是解壓縮在C槽根目錄C:\opencv-3.4.16-vc14_vc15(解壓縮的位置要記得，後面會使用到)</p>
+<p>3.然後根據下方圖的步驟，將C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\bin加入系統Path的環境變數中(路徑需照自己解壓縮的地方設定，不要直接複製)。</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/opencv_envset.png"></p>
 <h2>第四步：下載darknet並解壓縮</h2>
 <p>1.到github<a href="https://github.com/AlexeyAB/darknet">下載darknet</a></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_download.PNG"></p>
