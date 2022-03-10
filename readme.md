@@ -61,4 +61,11 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_filecheck.PNG"></p>
 如果沒有這些檔案請到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\visual_studio_integration\MSBuildExtensions中把裡面的4個檔案copy到C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations中。(路徑通常不會有差異，路徑中通常只會有版本號跟我不一樣v10.1)
 <p></p>
-<p>6.到3.提到的build資料夾下的darknet資料夾，並用vs2019將darknet.sln開啟</p>
+<p>6.到3.提到的build資料夾下的darknet資料夾，並用vs2019將darknet.sln開啟，這時應該會看到VisualStudio跳出如下視窗，直接按確認即可</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_opensln.jpg"></p>
+<p>接下來應該會顯示如下畫面，先將畫面中上方的紅框為設定成Release x64。這時下方的紅框會跳出類似下圖中的報錯，這時先不要緊張，有報錯是正常的後面會說如何處理。</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStuio_openslnerror.jpg"></p>
+<p>7.對著右方darknet按右鍵並點擊屬性，如下圖</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_attributes.jpg"></p>
+<p>8.接著依照下圖1234的順序做操作，首先先點選組態屬性中的一般(1.)，在平台工具組右方欄位設定點選下拉式選單的按鈕(2.)，然後選擇Visual Studio(v142)(3.)，然後點選確認(4.)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_attributeset.PNG"></p>
