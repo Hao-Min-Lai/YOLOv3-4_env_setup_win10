@@ -69,3 +69,5 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_attributes.jpg"></p>
 <p>8.接著依照下圖1234的順序做操作，首先先點選組態屬性中的一般(1.)，在平台工具組右方欄位設定點選下拉式選單的按鈕(2.)，然後選擇Visual Studio(v142)(3.)，然後點選確認(4.)</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_attributeset.PNG"></p>
+<p>9.與7.一樣，對著右方darknet按右鍵並點擊重訂專案目標，如下圖</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_resetproject.jpg"></p>
