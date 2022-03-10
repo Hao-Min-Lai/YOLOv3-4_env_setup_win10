@@ -71,3 +71,9 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_attributeset.PNG"></p>
 <p>9.與7.一樣，對著右方darknet按右鍵並點擊重訂專案目標，如下圖</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_resetproject.jpg"></p>
+<p>點擊後會跑如下視窗</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_projectresetwindow.jpg"></p>
+<p>10.接著Windows SDK 版本選擇一大串數字的，我的是10.0.19041.0(可能會稍有不同不用完全跟我一樣)，然後點擊確定，不要選擇最新安裝的版本</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_projectresetwindowset.jpg"></p>
+<p>點擊完確定後，把VisualStudio關掉後，重新使用VisualStudio開啟darknet.sln，開啟後這時版本問題應該就會不見了，但是會有另一個報錯如下圖</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_designtimeerro.jpg"></p>
