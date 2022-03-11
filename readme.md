@@ -117,3 +117,9 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset5.PNG"></p>
 <p>將此路徑加入，如圖(路徑請按自己opencv的位置設定，切勿照貼)，添加完之後按確認</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset6.PNG"></p>
+<p><h3>連結器配置</h3></p>
+<p><h3>第一步：其他相依性配置如圖</h3></p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_link1.PNG"></p>
+<p>將opencv_world3416.lib加入其中(如圖)，添加完之後按確認，下面幾個lib是我自己之前測試加的，跟我不一樣正常，不用擔心</p>
+<p>opencv_world3416.lib檔案位於1.C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\lib 2.C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\bin這兩個資料夾中。</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_link2.PNG"></p>
