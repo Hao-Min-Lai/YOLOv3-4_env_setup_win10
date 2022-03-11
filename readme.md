@@ -47,7 +47,7 @@
 <p>2.下載好後解壓縮到自己要的地方，我是解壓縮在C槽根目錄C:\opencv-3.4.16-vc14_vc15(解壓縮的位置要記得，後面會使用到)</p>
 <p>3.然後根據下方圖的步驟，將C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\bin加入系統Path的環境變數中(路徑需照自己解壓縮的地方設定，不要直接複製)。</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/opencv_envset.png"></p>
-<h2>第四步：下載darknet並解壓縮</h2>
+<h2>第四步：下載darknet並解壓縮並配置</h2>
 <p>1.到github<a href="https://github.com/AlexeyAB/darknet">下載darknet</a></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_download.PNG"></p>
 <p>2.下載好之後解壓縮到自己要的位置，我是解壓縮在我的G槽G:\darknet-master</p>
@@ -99,3 +99,21 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/root_filecopy.png"></p>
 <p>這時關掉VisualStudio後再用VisualStudio開啟darknet.sln應該就不會報錯嚕~</p>
 <p>13.接下來就是將opencv加入VisualStudio中~首先與7.一樣對darknet點擊右鍵按屬性並進行以下操作，由於前面有提過了這邊就不截圖了，可以拉回前面看</p>
+<p><h3>VC++ 目錄配置</h3></p>
+<p><h3>第一步：Include 目錄配置</h3></p>
+<p>對Include目錄進行編輯(如圖)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset1.PNG"></p>
+<p>照圖中提示進行點擊，接著進行下一步</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset2.PNG"></p>
+<p>添加以下三個路徑，如圖(路徑請按自己opencv的位置設定，切勿照貼)，添加完之後按確認</p>
+<p>1.C:\opencv-3.4.16-vc14_vc15\opencv\build\include</p>
+<p>2.C:\opencv-3.4.16-vc14_vc15\opencv\build\include\opencv</p>
+<p>3.C:\opencv-3.4.16-vc14_vc15\opencv\build\include\opencv2</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset3.PNG"></p>
+<p><h3>第二步：程式庫目錄配置</h3></p>
+<p>對程式庫目錄進行編輯(如圖)</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset4.PNG"></p>
+<p>照圖中提示進行點擊，接著進行下一步</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset5.PNG"></p>
+<p>將此路徑加入，如圖(路徑請按自己opencv的位置設定，切勿照貼)，添加完之後按確認</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_VCset6.PNG"></p>
