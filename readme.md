@@ -23,7 +23,7 @@
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/Download%20cuDNN.PNG">
 <p>第二步：勾選 I Agree To the Terms of the cuDNN Software License Agreement，勾選後點擊下方的Archived cuDNN Releases進到選擇版本頁面</p>
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_releases.PNG">
-<p>第三步：點選自己需要的cudnn版本，個人目前使用7.6.2版，並根據自己的系統去選擇要下載的檔案點擊下載。</p>
+<p>第三步：點選自己需要的cudnn版本，個人目前使用7.6.5.32版，並根據自己的系統去選擇要下載的檔案點擊下載。</p>
 <img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_version.PNG">
 <p>第四步：下載完後解壓縮到自己要的地方，我自己是解壓縮在C槽根目錄下，解壓縮後會得到一個資料夾</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_unzip.PNG"></p>
