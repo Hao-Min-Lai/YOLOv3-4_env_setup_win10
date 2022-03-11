@@ -123,4 +123,19 @@
 <p>將opencv_world3416.lib加入其中(如圖)，添加完之後按確認，下面幾個lib是我自己之前測試加的，跟我不一樣正常，不用擔心</p>
 <p>opencv_world3416.lib檔案位於1.C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\lib 2.C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\bin這兩個資料夾中。</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_link2.PNG"></p>
+<p><h3>CUDA VC++配置</h3></p>
+<p>進入CUDA VC++中，並照下圖點擊操作</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_Device1.PNG"></p>
+<p>將紅框以外的東西都刪掉，然後點擊確認</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_Device2.PNG"></p>
+<h2>第五步：下載Yolo V3權重檔並配置</h2>
+<p>1.到下方網址下載Yolov3權重檔</p>
+<p>https://pjreddie.com/media/files/yolov3.weights</p>
+<p>2.下載好後將yolov3.weights丟入G:\darknet-master\darknet-master\build\darknet\x64中(請將檔案丟入build中的darknet中的x64資料夾，請到自己的路徑中複製路徑下來，不要照貼我的會出錯)</p>
 <p><h3>到此配置已經完成嚕~</h3></p>
+<h2>測試Yolov3是否能正常運作</h2>
+<p>1.打開cmd並進到G:\darknet-master\darknet-master\build\darknet\x64中(請按照自己的路徑，每個人路徑可能會不一樣)</p>
+<p>2.輸入如下指令並按enter</p>
+<p>darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg</p>
+<p>接著等他跑一下，如果有順利顯示出這張圖片，就代表建置成功啦~</p>
+<p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/yolo_result.PNG.jpg"></p>
