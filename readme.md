@@ -137,7 +137,7 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_Device2.PNG"></p>
 <h2>第五步：建置darknet</h2>
 <p>這一步驟很簡單，只要對darknet按一下右鍵，然後點擊建置就完成了~</p><p>如果前面步驟都有照做順利完成的畫，這個步驟基本上等他跑完就好了，不太會出錯。</p>
-<p>註：如果前面步驟都有照做順利完成的畫，這個步驟基本上等他跑完就好了，不太會出錯。</p>
+<p>註：只要VisualStudio下方資訊欄顯示1成功0失敗就代表成功。</p>
 <p>ex:我自己在架的時候曾經遇到過這個報錯，看起來是因為版本衝突或是安裝過多個版本導致的，如果遇到以下報錯的話，把CUDA刪掉照著前面CUDA安裝步驟重裝就好了</p>
 <p>報錯：Unexpected compiler version, expected CUDA 10.1 Update 2 or newer.</p>
 <h2>第六步：下載Yolo V3權重檔並配置</h2>
