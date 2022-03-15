@@ -2,7 +2,8 @@
 <p>
 <p>&emsp;&emsp;大家好~我是吉米，環境架設對於大部分新手工程師們常常是一場惡夢(有時候老手也是XD)，在網路上爬文半天結果忽略某個細節導致後面又要回頭除錯，一天就這樣過去了ಥ_ಥ，在這邊給剛接觸yolo需要架環境的工程師們參考，省時間並少走一些彎路~目前還在慢慢更新中，CUDA跟cudnn的配置已經寫完了~後續會繼續補上</p>
 <p>&emsp;&emsp;有鑑於每次重新架設yolo環境都要重新找之前看的網站或是書籍，而網路上的資料零零散散，常常需要翻很多個網站看有無漏掉的細節，因此決定自己寫一個環境架設的筆記來記錄架環境的過程，如有寫錯的地方歡迎不吝賜教。
-<p>
+<p>聯絡方式：lhm0424@gmail.com，有任何疑問或是建議都歡迎聯絡。</p>
+<p></p>
 <h2>第一步：安裝cuda與cudnn並配置環境</h2>
 <p>
 <p><h3>1.安裝CUDA</h3></p>
@@ -28,15 +29,21 @@
 <p>第四步：下載完後解壓縮到自己要的地方，我自己是解壓縮在C槽根目錄下，解壓縮後會得到一個資料夾</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/cudnn_unzip.PNG"></p>
 <p>第五步：這邊的操作比較複雜!!!請仔細看 不要因為複雜就跳過喔~這個步驟沒做後面架環境會有問題</p>
-<p>註：假設版本跟我一樣且都是解壓縮在C槽根目錄下方的話，路徑可以照貼找到檔案，別連檔案名稱都複製貼上喔~複製路徑就好</p>
+<p>這邊的操作比較複雜!!!請仔細看 不要因為複雜就跳過喔~這個步驟沒做後面架環境會有問題</p>
+<p>這邊的操作比較複雜!!!請仔細看 不要因為複雜就跳過喔~這個步驟沒做後面架環境會有問題</p>
+<p>因為很重要所以說三次!!!</p>
+
+<p>註1：假設版本跟我一樣且都是解壓縮在C槽根目錄下方的話，路徑可以照貼找到檔案，別連檔案名稱都複製貼上喔~複製路徑就好</p>
+<p>註2：然後記得是用複製的不要直接把檔案拖拉到另一個資料夾，這樣原始資料夾的檔案會不見，後面遇到檔案找不到的報錯要回到這一步會發現沒有檔案可以用。</p>
 <p><h4>1.把 C:\cudnn-10.2-windows10-x64-v7.6.5.32\cuda\bin\cudnn64_7.dll 複製到 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin中</h4></p>
 <p><h4>2.把 C:\cudnn-10.2-windows10-x64-v7.6.5.32\cuda\include\cudnn.h 複製到 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include中</h4></p>
 <p><h4>3.把 C:\cudnn-10.2-windows10-x64-v7.6.5.32\cuda\lib\x64\cudnn.lib 複製到 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64中</h4></p>
+<p>cudnn64_7.dll cudnn.h cudnn.lib這三個檔名稍微記一下，後面如果有遇到這三個檔案中其中一個找不到的情況來這邊看一下是否有正確複製到檔案。</p>
 <p>
 <p><h3>恭喜你~以上步驟都順利完成的話~你的cuda 與cudnn配置就完成囉~</h3></p>
 <h2>第二步：安裝Visual Studio</h2>
 <p>&emsp;&emsp;個人是裝2019版，之前看到爬文有人推2015跟2017比較不會出錯，不過我用2019除錯了一下也順利的架設好了，所以這邊分享一下Visual Studio2019的安裝方法，如果有大大有更方便的安裝方法歡迎跟我分想一下，之前為了這Visual Studio的部分卡了兩天差點放棄ಥ_ಥ</p>
-<p>os:不要去用2022，可能後續會有更新讓2022版能用，但是我在用的時候用了半天跟我報錯說此功能只在2019以下版本適用我吐了我(／‵Д′)／~ ╧╧</p>
+<p>os:不要用2022，可能後續會更新2022也能用，但是我在用的時候用了半天跟我報錯說此功能限2019以下版本適用我吐了我(／‵Д′)／~ ╧╧</p>
 <p>1.：到<a href="https://docs.microsoft.com/zh-tw/visualstudio/releases/2019/release-notes">Visual Studio官網</a>點選Download Community 2019按鈕，個人目前使用2019版，下載完後直接點擊安裝</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_2019.PNG"></p>
 <p>2.：安裝時基本上只要一直下一步就好，直到下方圖片的畫面。勾選1跟2之後，點擊3進行安裝(下方圖是我抓2022的時候截的，不過2019也是同樣的設定，不影響)</p>
@@ -128,7 +135,12 @@
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_Device1.PNG"></p>
 <p>將紅框以外的東西都刪掉，然後點擊確認</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/VisualStudio_Device2.PNG"></p>
-<h2>第五步：下載Yolo V3權重檔並配置</h2>
+<h2>第五步：建置darknet</h2>
+<p>這一步驟很簡單，只要對darknet按一下右鍵，然後點擊建置就完成了~</p><p>如果前面步驟都有照做順利完成的畫，這個步驟基本上等他跑完就好了，不太會出錯。</p>
+<p>註：如果前面步驟都有照做順利完成的畫，這個步驟基本上等他跑完就好了，不太會出錯。</p>
+<p>ex:我自己在架的時候曾經遇到過這個報錯，看起來是因為版本衝突或是安裝過多個版本導致的，如果遇到以下報錯的話，把CUDA刪掉照著前面CUDA安裝步驟重裝就好了</p>
+<p>報錯：Unexpected compiler version, expected CUDA 10.1 Update 2 or newer.</p>
+<h2>第六步：下載Yolo V3權重檔並配置</h2>
 <p>1.到下方網址下載Yolov3權重檔</p>
 <p>https://pjreddie.com/media/files/yolov3.weights</p>
 <p>2.下載好後將yolov3.weights丟入G:\darknet-master\darknet-master\build\darknet\x64中(請將檔案丟入build中的darknet中的x64資料夾，請到自己的路徑中複製路徑下來，不要照貼我的會出錯)</p>
