@@ -54,7 +54,7 @@
 <p>2.下載好後解壓縮到自己要的地方，我是解壓縮在C槽根目錄C:\opencv-3.4.16-vc14_vc15(解壓縮的位置要記得，後面會使用到)</p>
 <p>3.然後根據下方圖的步驟，將C:\opencv-3.4.16-vc14_vc15\opencv\build\x64\vc14\bin加入系統Path的環境變數中(路徑需照自己解壓縮的地方設定，不要直接複製)。</p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/opencv_envset.png"></p>
-<h2>第四步：下載darknet並解壓縮並配置</h2>
+<h2>第四步：下載darknet並解壓縮並配置建置環境</h2>
 <p>1.到github<a href="https://github.com/AlexeyAB/darknet">下載darknet</a></p>
 <p><img src="https://github.com/lhmjimmy/Yolov3-/blob/master/darknet_download.PNG"></p>
 <p>2.下載好之後解壓縮到自己要的位置，我是解壓縮在我的G槽G:\darknet-master</p>
