@@ -7,7 +7,7 @@
 <p>第一位是大陸知乎上的小新哥，下面是他知乎上的連結</p>
 <p>https://www.zhihu.com/people/zzd-65-78</p>
 <p>第二位是Medium上的李謦伊小姐姐，下面是她Medium上的連結，她的文章還蠻多有關AI的，寫的也都很好，個人從上面學了很多東西XD</p>
-<p>https://www.zhihu.com/people/zzd-65-78</p>
+<p>https://medium.com/@chingi071</p>
 <p>第三位是巴哈上的別說違心之論好嘛?，下面是他巴哈上的連結，他這篇文章省了我快兩個小時的時間，大感謝</p>
 <p>https://home.gamer.com.tw/homeindex.php?owner=aa28131273</p>
 
